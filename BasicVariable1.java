@@ -1,0 +1,15 @@
+public class BasicVariable1 {
+
+    public static void main(String[] args) {
+        String kalimat1 = "Halo Dunia";
+        kalimat1 = "Halo Bandung";
+        int angka1 = 3;
+        int angka2 = 5;
+        int pertambahan = angka1 + angka2;
+
+        System.out.println(kalimat1);
+        System.out.println(pertambahan);
+
+    }
+    
+}
