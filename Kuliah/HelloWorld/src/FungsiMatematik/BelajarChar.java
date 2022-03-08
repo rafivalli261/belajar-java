@@ -12,8 +12,8 @@ import java.util.Scanner;
 public class BelajarChar {
     public static void main(String[] args) {
         // untuk menampilkan persamaan matematik bisa menggunakan unicode, cek di internet
-        char ch = 'a';
-        System.out.println(++ch);
+        String st = "Halo Dunia       ";
+        System.out.println(st.trim());
         
     }
 }
