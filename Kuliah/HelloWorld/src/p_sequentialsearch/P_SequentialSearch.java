@@ -41,6 +41,5 @@ public class P_SequentialSearch {
         // jika nilai tidak ditemukan, maka ..
         else
             System.out.println("Angka tidak ditemukan!");
-        
     }
 }
