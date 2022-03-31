@@ -10,10 +10,10 @@ public class Segi3SK {
     }
     
     Segi3SK(double al, double tg){
-        // sisiMiring = Math.sqrt(Math.pow(alas, 2) + Math.pow(tinggi, 2));
         alas = al;
         tinggi = tg;
         sisiMiring = Math.sqrt(alas*alas + tinggi*tinggi);
+        // sisiMiring = Math.sqrt(Math.pow(alas, 2) + Math.pow(tinggi, 2));
     }
     
     void setAlas(double a){
