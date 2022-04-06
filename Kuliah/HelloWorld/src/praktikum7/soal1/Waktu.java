@@ -3,8 +3,8 @@ package praktikum7.soal1;
 import java.util.Scanner;
 
 class Stopwatch{
-    private long startTime;
-    private long endTime;
+    private long startTime = 0;
+    private long endTime = 0;
     
     public long getStartTime(){
         return this.startTime;

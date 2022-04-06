@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package praktikum7.soal2;
 
 import java.io.*;
@@ -85,7 +81,7 @@ public class Hero2 {
     }
 
     public static void main(String[] args) {
-        int a, b, c, d, e, f;
+        int a;
 
         Scanner ky = new Scanner(System.in);
         int[] angka = new int[6];
