@@ -1,13 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package praktikum10;
 
-/**
- *
- * @author ASUS
- */
 public class Rectangle extends GeoObj {
 
     private int panjang;
@@ -32,19 +24,18 @@ public class Rectangle extends GeoObj {
     public double getArea() {
         return (this.lebar * this.panjang);
     }
-    
+
     @Override
     public GeoObj maks(GeoObj A) {
-        if(A.getArea() > this.getArea()){
+        if (A.getArea() > this.getArea()) {
             return A;
-        }
-        else{
+        } else {
             return this;
         }
     }
-    
+
     @Override
-    public String getNomor(){
+    public String getNomor() {
         return nomor;
     }
 
