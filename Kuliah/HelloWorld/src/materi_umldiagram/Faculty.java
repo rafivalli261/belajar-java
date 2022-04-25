@@ -4,7 +4,7 @@ public class Faculty {
 
     private String nameFaculty;
     private int id;
-    private Course[] courseList;
+    private Course[] courseList = new Course[0];
 
     Faculty() {
 
