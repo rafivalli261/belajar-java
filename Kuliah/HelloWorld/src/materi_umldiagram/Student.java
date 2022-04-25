@@ -1,10 +1,13 @@
 package materi_umldiagram;
 
+import java.util.ArrayList;
+
 public class Student {
 
     private String nama;
     private String nim;
-    private Course[] courseList = new Course[0];
+    // private Course[] courseList = new Course[0];
+    private ArrayList<Course> courseList = new ArrayList<>();
 
     Student() {
 
@@ -15,6 +18,7 @@ public class Student {
         this.nim = nim;
     }
 
+    /*
     public void addCourse(Course c) {
         Course[] temp = new Course[courseList.length + 1];
         for (int i = 0; i < courseList.length; i++) {
@@ -22,10 +26,13 @@ public class Student {
         }
         temp[courseList.length] = c;
         courseList = temp;
-
+    }
+     */
+    public void addCourse(Course c) {
+        this.courseList.add(c);
     }
 
-    public Course[] getCourse() {
+    public ArrayList<Course> getCourse() {
         return this.courseList;
     }
 

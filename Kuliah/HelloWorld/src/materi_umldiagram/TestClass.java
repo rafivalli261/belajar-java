@@ -1,6 +1,7 @@
 package materi_umldiagram;
 
-// name nim course
+import java.util.ArrayList;
+
 public class TestClass {
 
     public static void main(String[] args) {
@@ -18,13 +19,14 @@ public class TestClass {
         System.out.println("Course : " + cr1.getNamaCourse());
         System.out.println("Kode : " + cr1.getKode());
 
-        Course[] cl;
+        ArrayList<Course> cl;
         st1.addCourse(cr1);
         st1.addCourse(cr2);
         cl = st1.getCourse();
-        for (int i = 0; i < cl.length; i++) {
-            System.out.println("Course " + (i + 1) + " : " + cl[i].getNamaCourse());
-        }
+
+        cl.forEach(i -> {
+            System.out.println(i.getNamaCourse());
+        });
 
     }
 }
