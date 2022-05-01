@@ -49,7 +49,7 @@ public class GarangPong {
         if (this.attPemain1 == "batu" && this.attPemain2 == "kertas") {
             return this.pemain2;
         } else if (this.attPemain1 == "kertas" && this.attPemain2 == "batu") {
-            return this.attPemain1;
+            return this.pemain1;
         } else if (this.attPemain1 == "batu" && this.attPemain2 == "gunting") {
             return this.pemain1;
         } else if (this.attPemain1 == "gunting" && this.attPemain2 == "batu") {

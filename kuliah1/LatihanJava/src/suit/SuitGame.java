@@ -32,7 +32,8 @@ public class SuitGame {
             System.out.println("[1] ya");
             System.out.println("[2] cukup");
             System.out.print(" > ");
-            int pilih = ky.nextInt();
+            int pilih = Integer.parseInt(ky.nextLine());
+            
             if (pilih == 1) {
                 cek = true;
             } else {
@@ -47,6 +48,10 @@ public class SuitGame {
 Catatan : Setelah selesai satu permainan dan lanjut ke permainan selanjutnya 
 terdapat bug pada input nama yang menyebabkan sistem tidak membaca
 input1 melainkan langsung menuju input2
+Solusi : karena integer tidak membaca spasi, maka spasi
+akan ikut terbaca dengan nextLine, oleh karena itu
+sebaiknya gunakan Integer.parseInt(String) untuk mengambil semua baris kode
+kemudian memasukkan nya dalam variabel int
 
 
 */
