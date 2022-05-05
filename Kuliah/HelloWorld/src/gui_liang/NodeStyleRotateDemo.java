@@ -19,7 +19,7 @@ public class NodeStyleRotateDemo extends Application {
         pane.setRotate(45);
         pane.setStyle("-fx-border-color: red; -fx-background-color: lightgray;");
 
-        Scene scene = new Scene(pane, 200, 250);
+        Scene scene = new Scene(pane, 250, 200);
         primaryStage.setTitle("NodeStyleRotateDemo"); // Set the stage title
         primaryStage.setScene(scene); // place the scene in the stage
         primaryStage.show(); // Display the stage
