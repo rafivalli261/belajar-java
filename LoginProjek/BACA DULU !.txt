@@ -1,0 +1,5 @@
+Berikut adalah projek jadi pada NetBeans.
+1. Buka folder "loginprojek" melalui "Open Projeck (Ctrl+Shift+o)".
+2. Untuk pembuatan database silahkan ikuti seperti video.
+Silahkan pelajari algoritma dan alurnya. Semoga membantu.
+Jangan lupa subcribe ya Gan :)
